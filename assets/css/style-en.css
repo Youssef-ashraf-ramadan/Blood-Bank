@@ -6,8 +6,9 @@
 }
 
 body,html{
+    font-family: cursive;
     overflow-x: hidden;
-    font-family: 'Cairo', sans-serif;
+ 
 }
 
 
@@ -17,7 +18,7 @@ body,html{
     background-color: #2D3E50;
     padding: 10px;
     color: white;
-    direction: rtl;
+    direction: ltr;
     font-size: 18px
 }
 
@@ -33,13 +34,13 @@ body,html{
 
 .nav_phone {
     position: relative;
-    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .nav_phone:after {
     content: "";
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
     width: 1px;
     height: 100%;
@@ -48,7 +49,7 @@ body,html{
 
 .first-nav_social,
 .language {
-    text-align: right;
+    text-align: left;
 }
 
 .first-nav_social i {
@@ -58,14 +59,14 @@ body,html{
 
 .language .english {
     position: relative;
-    padding-right: 8px;
+    padding-left: 8px;
     color: rgb(121, 128, 136);
 }
 
 .language .english:after {
     content: "";
     position: absolute;
-    right: 0;
+    left: 0;
     top: 6px;
     width: 2px;
     height: 84%;
@@ -74,7 +75,7 @@ body,html{
 
 .language .arabic {
     color: #e8073b;
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .first-nav_social i {
@@ -112,7 +113,7 @@ body,html{
 /* start navbar */
 
 .main_navbar {
-    direction: rtl;
+    direction: ltr;
 }
 
 .main_navbar nav {
@@ -123,7 +124,7 @@ body,html{
     background-color: #2d3e50;
     color: #f7d1a5;
     padding: 8px 25px;
-    margin-right: 15px;
+    margin-left: 15px;
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -161,7 +162,7 @@ body,html{
     content: "";
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: 1px;
     height: 90%;
     background-color: rgba(214, 204, 204, 0.31);
@@ -225,8 +226,8 @@ body,html{
 
 .home_header,
 .second_header {
-    text-align: right;
-    direction: rtl;
+    text-align: left;
+    direction: ltr;
     
 }
 
@@ -267,7 +268,7 @@ body,html{
 }
 
 .carousel-caption {
-    right: 8%;
+    left: 8%;
     top: 5%;
 }
 
@@ -287,9 +288,8 @@ body,html{
 
 .second_section {
    
-    background-image: url(../imgs/imgs/about.png);
-    background-size: contain;
-
+    background-image: url(../imgs/imgs/about2-ltr.png);
+    background-size: 100% 100%;
     padding-bottom: 3rem;
     background-repeat: no-repeat;
     background-color: rgb(252, 249, 243, 0.6);
@@ -319,16 +319,17 @@ body,html{
 }
 
 .articles_header h2 {
-    text-align: right;
-    direction: rtl;
+    text-align: left;
+    direction: ltr;
     padding-bottom: 12px;
     border-bottom: 1px solid rgba(195, 187, 187, 0.26);
+    font-size: 25px;
 }
 
 .articles_header h2 span {
     color: #a02424;
     border-bottom: 2px solid #a02424;
-    margin-right: 15%!important;
+    margin-left: 15%!important;
 }
 
 .prev_slide,
@@ -351,7 +352,7 @@ body,html{
 }
 
 .arrow_btns {
-    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .article_btns {
@@ -364,14 +365,14 @@ body,html{
 }
 
 .article h3 {
-    text-align: right;
+    text-align: left;
     margin: 15px 10px;
     color: #b71313;
     font-size: 20px;
 }
 
 .article p {
-    text-align: right;
+    text-align: left;
     line-height: 1.758;
     padding: 5px 15px;
 }
@@ -383,7 +384,7 @@ body,html{
 .icon_layer {
     position: absolute;
     top: 2%;
-    left: 5%;
+    right: 5%;
     width: 40px;
     height: 40px;
     background-color: #2d3e50;
@@ -412,7 +413,7 @@ body,html{
 /* start donner ection  */
 
 .asks {
-    direction: rtl;
+    direction: ltr;
     padding-top: 30px;
     padding-bottom: 35px;
     background-color: #f7f7f7;
@@ -422,9 +423,7 @@ body,html{
     margin-bottom: 0px;
 }
 
-.asks_header h2 span {
-    margin-right: 45%!important;
-}
+
 
 .select_container {
     position: relative;
@@ -434,17 +433,17 @@ body,html{
     content: "";
     position: absolute;
     top: 0;
-    left: 16%;
+    right: 16%;
     width: 1px;
     height: 100%;
     background-color: rgba(0, 0, 0, .1);
 }
 
 .select_container i {
-    padding-left: 18px;
+    padding-right: 18px;
     position: absolute;
     top: 27%;
-    left: 1%;
+    right: 1%;
     background-color: white;
 }
 
@@ -452,14 +451,14 @@ body,html{
     padding: 2px 12px;
     color: #959a9e;
     border: none;
-    border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .search_icon {
-    text-align: right;
+    text-align: left;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -473,8 +472,8 @@ body,html{
 
 .donner_container {
     background-color: white;
-    border-top-right-radius: 80px;
-    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
     
 }
 .donner_details_btn{
@@ -482,8 +481,8 @@ body,html{
 }
 
 .donner_data {
-    direction: rtl;
-    text-align: right;
+    direction: ltr;
+    text-align: left;
 }
 
 .person_data {
@@ -497,7 +496,7 @@ body,html{
     border-radius: 50%;
     text-align: center;
     margin-top: 3px;
-    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .blood_name h2 {
@@ -539,11 +538,11 @@ body,html{
 /* start call us section */
 
 .call {
-    background-image: url(../imgs/imgs/call.jpg);
+    background-image: url(../imgs/imgs/call-ltr.jpg);
     background-size: 100% 100%;
     padding-top: 35px;
     padding-bottom: 35px;
-    direction: rtl
+    direction: ltr
 }
 
 .call_us {
@@ -560,14 +559,14 @@ body,html{
 }
 
 .badge_container {
-    direction: rtl;
+    direction: ltr;
     position: relative;
     margin: 35px 0px;
 }
 
 .badge_container img {
     position: absolute;
-    left: 46px;
+    right: 46px;
     top: -4px;
     width: 100px;
     height: 104px;
@@ -576,13 +575,13 @@ body,html{
 .badge_container a {
     color: white;
     background-color: #24a417;
-    padding: 30px 50px 30px 140px;
+    padding: 30px 140px 30px 50px;
     font-size: 30px;
     letter-spacing: .9px;
 }
 
 .call_us p {
-    text-align: right
+    text-align: left
 }
 
 .call_us p {
@@ -601,7 +600,7 @@ body,html{
     padding-bottom: 35px;
     background-image: url(../imgs/imgs/BG-phone.png);
     background-size: 100% 100%;
-    direction: rtl;
+    direction: ltr;
 }
 
 .app_info {
@@ -609,7 +608,7 @@ body,html{
 }
 
 .app_info h3:nth-child(1) {
-    text-align: right;
+    text-align: left;
     margin-top: 25px;
     margin-bottom: 30px;
     font-weight: 600;
@@ -631,7 +630,7 @@ body,html{
 }
 
 .app_info p {
-    text-align: right;
+    text-align: left;
     line-height: 1.999;
     font-size: 21px;
 }
@@ -640,8 +639,8 @@ body,html{
 /*start footer */
 
 .footer {
-    direction: rtl;
-    text-align: right;
+    direction: ltr;
+    text-align: left;
     padding-top: 35px;
     padding-bottom: 35px;
     color: white;
@@ -710,7 +709,7 @@ body,html{
 /* start  bottom nav  */
 
 .bottom_nav {
-    direction: rtl;
+    direction: ltr;
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
@@ -718,7 +717,7 @@ body,html{
 }
 
 .copy_right {
-    text-align: right;
+    text-align: left;
 }
 
 .copy_right p {
@@ -730,14 +729,14 @@ body,html{
 }
 
 .bottom_icons {
-    text-align: right;
+    text-align: left;
 }
 
 .bottom_icons i {
     transition: all .5s ease-in-out;
     font-size: 20px;
-    margin-right: 5px;
     margin-left: 5px;
+    margin-right: 5px;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
@@ -768,9 +767,10 @@ body,html{
 /* ####################################### start who we are page #################################### */
 
 .series {
-    direction: rtl;
-    margin-right: -15px;
+    direction: ltr;
     margin-left: -15px;
+    margin-right: -15px;
+   
 }
 
 .breadcrumb {
@@ -789,7 +789,7 @@ body,html{
 }
 
 .we {
-    direction: rtl;
+    direction: ltr;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -805,7 +805,7 @@ body,html{
 }
 
 .we p {
-    text-align: right;
+    text-align: left;
     line-height: 1.7878;
     margin-bottom: 10px;
     font-size: 18px;
@@ -823,8 +823,8 @@ body,html{
 }
 
 .pagination_container ul li {
-    margin-right: 3px;
     margin-left: 3px;
+    margin-right: 3px;
 }
 
 .pagination_container ul li a {
@@ -848,20 +848,20 @@ body,html{
 /* ##############################بداية صفحة داخل الطلب ######################## */
 
 .donner_member {
-    direction: rtl;
-    text-align: right;
+    direction: ltr;
+    text-align: left;
 }
 
 .outer_container {
     padding-top: 15px;
-    padding-right: 10px;
+    padding-left: 10px;
     border: 1px solid rgba(115, 104, 104, 0.1);
 }
 
 .right,
 .left {
     border: 1px solid rgba(115, 104, 104, 0.1);
-    padding: 10px 15px 5px 0px;
+    padding: 10px 0px 5px 15px;
 }
 
 .right {
@@ -870,9 +870,9 @@ body,html{
 }
 
 .left {
-    margin-right: -30px;
+    margin-left: -30px;
     margin-top: 5px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .request_btn {
@@ -920,7 +920,7 @@ body,html{
 /* start creating new account page  */
 
 .inp input {
-    text-align: right;
+    text-align: left;
     background-color: #FBFBFB;
     font-size: 18px;
     padding: 30px 10px!important;
@@ -945,13 +945,13 @@ body,html{
 .claendar i {
     position: absolute;
     top: 35%;
-    left: 26px;
+    right: 26px;
     font-size: 18px;
 }
 
 .fa-calendar-alt:before {
     content: "\f073";
-    left: 5%;
+    right: 5%;
     top: 30%;
     position: absolute;
 }
@@ -966,8 +966,8 @@ body,html{
 
 .location select {
     height: calc(1.5em + .75rem + 25px)!important;
-    text-align: right;
-    direction: rtl;
+    text-align: left;
+    direction: ltr;
     background-color: #FBFBFB;
     font-size: 18px;
     appearance: none;
@@ -996,7 +996,7 @@ body,html{
 .location i {
     position: absolute;
     top: 35%;
-    left: 4%;
+    right: 4%;
     font-size: 20px;
 }
 
@@ -1050,28 +1050,28 @@ body,html{
         transform-origin: 50% 100%;
     }
     10% {
-        -webkit-transform: rotate(2deg);
-        transform: rotate(2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
     }
     20%,
     40%,
     60% {
-        -webkit-transform: rotate(-4deg);
-        transform: rotate(-4deg);
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
     }
     30%,
     50%,
     70% {
-        -webkit-transform: rotate(4deg);
-        transform: rotate(4deg);
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
     }
     80% {
-        -webkit-transform: rotate(-2deg);
-        transform: rotate(-2deg);
-    }
-    90% {
         -webkit-transform: rotate(2deg);
         transform: rotate(2deg);
+    }
+    90% {
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
     }
 }
 
@@ -1084,28 +1084,28 @@ body,html{
         transform-origin: 50% 100%;
     }
     10% {
-        -webkit-transform: rotate(2deg);
-        transform: rotate(2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
     }
     20%,
     40%,
     60% {
-        -webkit-transform: rotate(-4deg);
-        transform: rotate(-4deg);
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
     }
     30%,
     50%,
     70% {
-        -webkit-transform: rotate(4deg);
-        transform: rotate(4deg);
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
     }
     80% {
-        -webkit-transform: rotate(-2deg);
-        transform: rotate(-2deg);
-    }
-    90% {
         -webkit-transform: rotate(2deg);
         transform: rotate(2deg);
+    }
+    90% {
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
     }
 }
 
@@ -1123,14 +1123,14 @@ body,html{
 .remember_container {
     display: flex;
     justify-content: space-between;
-    direction: rtl;
+    direction: ltr;
 }
 
 .check_lable {
-    /* direction: rtl; */
+   
     display: block;
     position: relative;
-    padding-left: 35px;
+    padding-right: 35px;
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
@@ -1157,7 +1157,7 @@ body,html{
 .check_mark {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     height: 25px;
     width: 25px;
     background-color: #eee;
@@ -1171,7 +1171,7 @@ body,html{
 .check_lable .txt {
     position: absolute;
     top: -7px;
-    right: 35px;
+    left: 35px;
     font-size: 20px;
 }
 
@@ -1209,30 +1209,34 @@ body,html{
 /* Style the checkmark/indicator */
 
 .check_lable .check_mark:after {
-    left: 9px;
-    top: 5px;
+   
     width: 8px;
     height: 12px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    position: absolute;
+    transform: rotate(45deg) translate(-50%, -50%);
+    left: 20%;
+    top: 50%;
+    height: 18px;
+    width: 8px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
 }
 
 .warning {
-    direction: rtl;
+    direction: ltr;
 }
 .warning a {
     text-decoration: none;
 }
 .warning p {
     font-size: 18px;
+    cursor: pointer;
 }
 
 .warning i {
     color: #FDAA08;
-    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
 }
 
 .login_btns {
@@ -1244,8 +1248,8 @@ body,html{
 .login_btns a {
     color: white;
     text-decoration: none;
-    margin-left: 10px;
     margin-right: 10px;
+    margin-left: 10px;
     border: 1px solid #c9ced4;
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -1278,15 +1282,15 @@ body,html{
 
 .inner_container {
     padding-top: 15px;
-    padding-right: 10px;
+    padding-left: 10px;
     border: 1px solid rgba(115, 104, 104, 0.1);
-    margin-right: 0px;
     margin-left: 0px;
+    margin-right: 0px;
 }
 
 .check_row,
 .login_row {
-    direction: rtl;
+    direction: ltr;
 }
 
 .check_btn {
@@ -1300,7 +1304,7 @@ body,html{
 /*##################################### start contact us page ############################## */
 
 .contact_section {
-    direction: rtl;
+    direction: ltr;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -1318,16 +1322,16 @@ body,html{
 }
 
 .call_container {
-    margin-right: -15px;
-}
-
-.contact_container {
     margin-left: -15px;
 }
 
+.contact_container {
+    margin-right: -15px;
+}
+
 .contact_form .inp {
-    margin-right: 10px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .contact_form .inp input {
@@ -1336,7 +1340,7 @@ body,html{
 
 .contact_form textarea {
     width: 96%;
-    margin-left: 10px;
+    margin-right: 10px;
     resize: none;
     border: 1px solid #ced4da;
     padding: 10px;
@@ -1346,7 +1350,7 @@ body,html{
     background-color: #2D3E50;
     color: white;
     width: 96%;
-    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 10px;
     border-radius: 0px;
@@ -1365,7 +1369,7 @@ body,html{
 }
 
 .call_txt {
-    text-align: right;
+    text-align: left;
 }
 
 .call_txt {
@@ -1374,7 +1378,7 @@ body,html{
 }
 
 .call_txt p {
-    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 18px
@@ -1389,9 +1393,11 @@ body,html{
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 35px;
+  
 }
 .call_icons i {
-    color: white;
+  color: white;
+  
 }
 .icon_item {
     width: 40px;
@@ -1408,12 +1414,9 @@ body,html{
 }
 
 .icon_item:hover {
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.google {
-    background-color: #DE4B39;
-}
 
 .whats_icon {
     background-color: #1BD741;
@@ -1440,7 +1443,7 @@ body,html{
     justify-content: space-between;
     background-color: #2D3E50;
     color: white;
-    direction: rtl;
+    direction: ltr;
     padding: 9px 12px 3px;
     align-items: center;
     align-content: center;
@@ -1468,14 +1471,14 @@ body,html{
     margin-top: 10px;
     margin-bottom: 25px;
     padding: 15px;
-    text-align: right;
-    direction: rtl;
+    text-align: left;
+    direction: ltr;
     font-size: 18px;
     line-height: 1.9888;
 }
 
 .h2_span h2 span {
-    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 
@@ -1503,7 +1506,7 @@ body,html{
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(115, 104, 104, 0.1);
-    text-align: right;
+    text-align: left;
     color: #777;
 }
 
@@ -1517,8 +1520,8 @@ body,html{
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(115, 104, 104, 0.1);
-    text-align: right;
-    padding-right: 10px;
+    text-align: left;
+    padding-left: 10px;
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -1527,7 +1530,7 @@ body,html{
 }
 
 .menue li i {
-    margin-left: 5px
+    margin-right: 5px
 }
 
 
@@ -1544,7 +1547,7 @@ body,html{
         margin-top: 13px;
     }
     .show {
-        margin-left: 18px;
+        margin-right: 18px;
     }
     .show ul {
         margin-bottom: 15px;
@@ -1556,7 +1559,7 @@ body,html{
         display: none;
     }
     .carousel-caption {
-        right: 10%;
+        left: 10%;
     }
     .home_btn {
         padding: 8px 31px;
@@ -1574,9 +1577,7 @@ body,html{
     .asks_header h2 {
         font-size: 25px;
     }
-    .asks_header h2 span {
-        margin-right: 31%!important;
-    }
+    
     .dropdown_container {
         margin-bottom: 15px;
     }
@@ -1591,8 +1592,8 @@ body,html{
     }
     .donner_container {
         background-color: white;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
         text-align: center
     }
     .blood_name {
@@ -1600,7 +1601,7 @@ body,html{
         margin-top: 24px;
         width: 80px;
         height: 80px;
-        margin-right: 5px;
+        margin-left: 5px;
     }
     .blood_name h2 {
         line-height: 80px;
@@ -1608,7 +1609,7 @@ body,html{
         font-size: 30px;
     }
     .person_data {
-        margin-right: 15px!important;
+        margin-left: 15px!important;
         margin-top: 5px;
     }
     .person_data p {
@@ -1622,7 +1623,7 @@ body,html{
     /* call us */
     .badge_container img {
         position: absolute;
-        left: -10px;
+        right: -10px;
         top: 0px;
         width: 80px;
         height: 80px;
@@ -1630,7 +1631,7 @@ body,html{
     .badge_container a {
         color: white;
         background-color: #24a417;
-        padding: 25px 20px 25px 61px;
+        padding: 25px 61px 25px 20px;
         font-size: 20px;
         letter-spacing: .9px;
     }
@@ -1646,7 +1647,7 @@ body,html{
     }
     .available,
     .navbar_info {
-        margin-right: 30px;
+        margin-left: 30px;
     }
     /* navbar */
     .bottom_icons {
@@ -1662,10 +1663,10 @@ body,html{
         display: none
     }
     .left {
-        margin-right: 0px;
+        margin-left: 0px;
     }
     .right {
-        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 5px;
     }
     .request_txt .p2 {
@@ -1673,23 +1674,23 @@ body,html{
     }
     .inp,
     .location select {
-        margin-left: 10px;
+        margin-right: 10px;
     }
     .location {
-        margin-right: 10px;
+        margin-left: 10px;
     }
     .location i {
-        left: 10%;
+        right: 10%;
     }
     .calendar input {
-        margin-right: 10px;
+        margin-left: 10px;
     }
     .form_btn button {
-        margin-left: 10px;
+        margin-right: 10px;
     }
     /* login */
     .warning {
-        text-align: right;
+        text-align: left;
     }
     .login_btns .login {
         padding: 10px 100px;
@@ -1702,10 +1703,10 @@ body,html{
         display: none;
     }
     .style_btns {
-        left: -56px;
+        right: -56px;
     }
     .select_container {
-        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -1717,13 +1718,13 @@ body,html{
         text-align: center;
     }
     .show {
-        margin-left: 20px;
+        margin-right: 20px;
     }
     .show ul {
         margin-bottom: 15px;
     }
     .carousel-caption {
-        right: 10%;
+        left: 10%;
     }
     .home_header h2 {
         font-size: 20px;
@@ -1748,9 +1749,7 @@ body,html{
     .asks_header h2 {
         font-size: 25px;
     }
-    .asks_header h2 span {
-        margin-right: 31%!important;
-    }
+   
     .dropdown_container {
         margin-bottom: 15px;
     }
@@ -1765,8 +1764,8 @@ body,html{
     }
     .donner_container {
         background-color: white;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
         text-align: center
     }
     .blood_name {
@@ -1774,7 +1773,7 @@ body,html{
         margin-top: 24px;
         width: 80px;
         height: 80px;
-        margin-right: 5px;
+        margin-left: 5px;
     }
     .blood_name h2 {
         line-height: 80px;
@@ -1782,7 +1781,7 @@ body,html{
         font-size: 30px;
     }
     .person_data {
-        margin-right: 15px!important;
+        margin-left: 15px!important;
         /* margin-bottom: 5px; */
         margin-top: 5px;
     }
@@ -1800,7 +1799,7 @@ body,html{
     }
     .badge_container img {
         position: absolute;
-        left: 16px!important;
+        right: 16px!important;
         top: 0px;
         width: 80px;
         height: 80px;
@@ -1808,7 +1807,7 @@ body,html{
     .badge_container a {
         color: white;
         background-color: #24a417;
-        padding: 25px 20px 25px 61px;
+        padding: 25px 61px 25px 20px;
         font-size: 20px;
         letter-spacing: .9px;
     }
@@ -1824,7 +1823,7 @@ body,html{
     }
     .available,
     .navbar_info {
-        margin-right: 30px;
+        margin-left: 30px;
     }
     /* navbar */
     .bottom_icons {
@@ -1840,10 +1839,10 @@ body,html{
         display: none
     }
     .left {
-        margin-right: 0px;
+        margin-left: 0px;
     }
     .right {
-        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 5px;
     }
     .request_txt .p2 {
@@ -1851,23 +1850,23 @@ body,html{
     }
     .inp,
     .location select {
-        margin-left: 10px;
+        margin-right: 10px;
     }
     .location {
-        margin-right: 10px;
+        margin-left: 10px;
     }
     .location i {
-        left: 10%;
+        right: 10%;
     }
     .calendar input {
-        margin-right: 10px;
+        margin-left: 10px;
     }
     .form_btn button {
-        margin-left: 10px;
+        margin-right: 10px;
     }
     /* login */
     .warning {
-        text-align: right;
+        text-align: left;
     }
     .login_btns .sign_up {
         padding: 10px 85px;
@@ -1885,10 +1884,10 @@ body,html{
         text-align: center;
     }
     .language {
-        text-align: right;
+        text-align: left;
     }
     .show {
-        margin-left: 20px;
+        margin-right: 20px;
     }
     .first-nav_social {
         text-align: center!important;
@@ -1900,10 +1899,9 @@ body,html{
         display: none;
     }
     .carousel-caption {
-        right: 10%;
+        left: 10%;
     }
     .second_section {
-       
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
@@ -1912,9 +1910,7 @@ body,html{
     .asks_header h2 {
         font-size: 25px;
     }
-    .asks_header h2 span {
-        margin-right: 31%!important;
-    }
+    
     .dropdown_container {
         margin-bottom: 15px;
     }
@@ -1929,8 +1925,8 @@ body,html{
     }
     .donner_container {
         background-color: white;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
         text-align: center
     }
     .blood_name {
@@ -1938,7 +1934,7 @@ body,html{
         margin-top: 24px;
         width: 80px;
         height: 80px;
-        margin-right: 5px;
+        margin-left: 5px;
     }
     .blood_name h2 {
         line-height: 80px;
@@ -1946,7 +1942,7 @@ body,html{
         font-size: 30px;
     }
     .person_data {
-        margin-right: 15px!important;
+        margin-left: 15px!important;
         /* margin-bottom: 5px; */
         margin-top: 5px;
     }
@@ -1964,14 +1960,14 @@ body,html{
     }
     .badge_container img {
         position: absolute;
-        left: 40px!important;
+        right: 40px!important;
         width: 80px;
         height: 80px;
     }
     .badge_container a {
         color: white;
         background-color: #24a417;
-        padding: 25px 20px 25px 61px;
+        padding: 25px 61px 25px 20px;
         font-size: 20px;
         letter-spacing: .9px;
     }
@@ -1987,7 +1983,7 @@ body,html{
     }
     .available,
     .navbar_info {
-        margin-right: 30px;
+        margin-left: 30px;
     }
     /* navbar */
     .bottom_icons {
@@ -2002,10 +1998,10 @@ body,html{
         display: none
     }
     .left {
-        margin-right: 0px;
+        margin-left: 0px;
     }
     .right {
-        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 5px;
     }
     .request_txt .p2 {
@@ -2013,23 +2009,23 @@ body,html{
     }
     .inp,
     .location select {
-        margin-left: 10px;
+        margin-right: 10px;
     }
     .location {
-        margin-right: 10px;
+        margin-left: 10px;
     }
     .location i {
-        left: 10%;
+        right: 10%;
     }
     .calendar input {
-        margin-right: 10px;
+        margin-left: 10px;
     }
     .form_btn button {
-        margin-left: 10px;
+        margin-right: 10px;
     }
     /* login */
     .warning {
-        text-align: right;
+        text-align: left;
     }
     .login_btns .sign_up {
         padding: 10px 85px;
@@ -2046,7 +2042,6 @@ body,html{
         font-size: 24px;
     }
     .second_section {
-        
         background-size: contain;
         padding-top: 0rem;
         padding-bottom: 1rem;
@@ -2056,10 +2051,7 @@ body,html{
     .second_section p {
         font-size: 16px;
     }
-    /* asks */
-    .asks_header h2 span {
-        margin-right: 38%!important;
-    }
+  
     .dropdown_container input {
         width: 70%;
     }
@@ -2073,7 +2065,7 @@ body,html{
     }
     .badge_container img {
         position: absolute;
-        left: 8px!important;
+        right: 8px!important;
         top: 0px;
         width: 80px;
         height: 80px;
@@ -2081,7 +2073,7 @@ body,html{
     .badge_container a {
         color: white;
         background-color: #24a417;
-        padding: 25px 20px 25px 61px;
+        padding: 25px 61px 25px 20px;
         font-size: 20px;
         letter-spacing: .9px;
     }
@@ -2115,14 +2107,14 @@ body,html{
         padding: 10px 25px;
     }
     .badge_container img {
-        left: 0px;
+        right: 0px;
     }
     /* app */
     .app_store img {
         margin-bottom: 15px;
     }
     .badge_container img {
-        left: 0px!important;
+        right: 0px!important;
     }
     .current_link {
       
@@ -2149,4 +2141,3 @@ body,html{
 }
 
 
-/*

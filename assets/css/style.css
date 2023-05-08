@@ -491,6 +491,9 @@ body,html{
 }
 
 .blood_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 118px;
     height: 118px;
     background-color: #f7f7f7;
